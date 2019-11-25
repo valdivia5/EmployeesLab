@@ -9,4 +9,7 @@ public class Manager extends Employee {
         super(name, NInumber, salary);
         this.deptName = deptName;
     }
+    public String getDeptName(){
+        return deptName;
+    }
 }
