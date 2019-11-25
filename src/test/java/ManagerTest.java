@@ -16,5 +16,24 @@ public class ManagerTest {
     public void canGetName(){
         assertEquals("Jesucristo", manager.getName());
     }
+    @Test
+    public void canGetNInumber(){
+        assertEquals("CS304846", manager.getNInumber());
+    }
+    @Test
+    public void canGetSalary(){
+        assertEquals(150, manager.getSalary());
+    }
+    @Test
+    public void canGetDeptName(){
+        assertEquals("Concha Tester", manager.getDeptName());
+    }
+
+    @Test
+    public void canRaiseSalary(){
+        manager.raiseSalary(50);
+        assertEquals(200, manager.getSalary());
+    }
+
 
 }
