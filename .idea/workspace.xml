@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da7cfa2f-2cd6-4415-911e-bf3d38a886ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DeveloperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/staff/techStaff/DatabaseAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseAdmin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/staff" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,6 +50,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DatabaseAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="employeesLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseAdmin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="employeesLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,6 +72,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in employeesLab" />
+        <item itemvalue="JUnit.DatabaseAdmin" />
         <item itemvalue="JUnit.ManagerTest.canGetName" />
       </list>
     </recent_temporary>
